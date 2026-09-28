@@ -8,7 +8,7 @@
   {{ $groups := slice "Faculty" "PhDs & Postdocs" "Other" }}
   {{ $pages := .Pages }}
   {{ $activePages := where $pages "Params.active" "ne" false }}
-  {{ $alumniPages := where $pages "Params.active" false }}
+  {{ $alumniPages := where site.RegularPages "Params.active" false }}
 
   {{ range $group := $groups }}
     {{ $groupPages := where $activePages "Params.group" $group }}

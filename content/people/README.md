@@ -1,12 +1,12 @@
 # People Profiles Guide
 
-This directory contains individual markdown profiles for all Computational Science Lab members and alumni.
+This directory contains individual markdown profiles for all Computational Science Lab members (and alumni in `alumni/`).
 
 ---
 
 ## How to Edit Your Profile
 
-1. Locate your file in this folder (e.g. `dr-m-h-mike-lees.md`).
+1. Locate your file in this folder (e.g. `dr-m-h-mike-lees.md`, or in `alumni/` for alumni).
 2. Click the pencil icon on GitHub to edit directly, or edit locally with your favorite code editor.
 3. Make your changes in the **YAML front matter** block between the `---` delimiters.
 4. Commit your changes.
@@ -46,7 +46,7 @@ method_keywords:
 - **`group`**: Group section: `"Faculty"`, `"PhDs & Postdocs"`, or `"Other"`.
 - **`active`**: 
   - `true`: Active member (displayed on `/people`).
-  - `false`: Alumnus (automatically displayed on `/alumni`).
+  - `false`: Alumnus (located in `alumni/`, automatically displayed on `/alumni`).
 - **`seniority`**: Faculty ordering level (lowest number displayed first):
   - `1`: Full Professor / Group Leader
   - `2`: Associate Professor / Professor Emeritus
